@@ -184,7 +184,7 @@ nav {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 88%;
+    width: 100%;
     z-index: 1000;
     border: 2px solid white;
     border-radius: 10px;
