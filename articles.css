@@ -18,7 +18,16 @@
     }
 
     section{
-        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-bottom: 5px solid #09213B;
+        padding-bottom: 50px;
+    }
+
+    a{
+        text-decoration: none;
     }
 
     .art-head a{
@@ -37,6 +46,13 @@
 
     .img-cont img{
         height: 300px;
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .img-cont-1 img{
+        height: 400px;
         display: block;
         width: 100%;
         border-radius: 10px;
@@ -63,17 +79,17 @@
         background-color: #09213B;
         text-align: center;
         padding: 20px;
-        position: sticky;
+        position: fixed;
         bottom: 0;
         left: 0;
-        width: auto;
+        width: 100%;
         z-index: 1000;
-        border: 1px solid white;
-        border-radius: 10px;
+        /* border: 1px solid white; */
+        /* border-radius: 10px; */
     }
       
     nav ul {
-        list-style-type: none;
+        list-style-type: none; 
         padding: 0;
         margin: 0;
         display: flex;
