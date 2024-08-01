@@ -12,7 +12,7 @@
     }
     
     .lead-img img{
-        height: 250px;
+        height: 200px;
         margin-top: 10px;  
         border-radius: 10px;
         box-shadow: 4px 5px 5px  rgb(229, 223, 223);
@@ -70,7 +70,7 @@
         }
         
         body{
-            background-color: #ffffff;
+            background-color: #c89dca;
         }
         
         .lead-img img{
