@@ -1,3 +1,174 @@
+@media screen and (max-width: 1600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 27px;
+    }
+
+    body{
+        background-color: #d4cfcf;
+        color: #09213B;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        margin-bottom: 30px;
+        text-decoration: underline;
+    }
+
+    h2{
+        text-decoration: underline;
+    }
+
+    .search-blog{
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #09213B;
+    }
+    
+    #myInput{
+        padding: 10px;
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(255, 255, 255, 0.853);
+      transition: box-shadow 0.3s ease; 
+    }
+    
+    /* .search-button img{
+        width: 30px;
+        height: 20px;
+    }
+    
+    .search-button{
+        margin-top: 1px;
+        height: 35px;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(255, 255, 255, 0.853);
+    } */
+    
+    #myUL {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        height: 100px;
+        overflow-y: scroll;
+    }
+    
+    #myUL {
+        -webkit-overflow-scrolling: touch;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    
+    #myUL li a {
+        border: 1px solid rgb(229, 225, 225);
+        margin-top: 8px;
+        width: 80%;
+        border-radius: 10px;
+        background-color: #09213B;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #d4cfcf;
+        display: block;
+        margin-left: 9%;
+    }
+    
+    #myUL li a:hover:not(.header) {
+        background-color: rgb(199, 248, 248);
+    }
+    
+    .search-bar-items {
+        display: none;
+    }
+
+    section{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-bottom: 5px solid #09213B;
+        padding-bottom: 50px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .art-head a{
+        padding: 5px;
+    }
+
+    .art-head h2{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .img-cont {
+        text-align: center;
+        position: relative;
+    }
+
+    .img-cont img{
+        height: 300px;
+        display: block;
+        width: 50%;
+        border-radius: 10px;
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 15%;
+    }
+
+
+    strong{
+        font-size: 20px;
+    }
+
+    /*Navigations*/
+    nav {
+        background-color: #09213B;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        /* border: 1px solid white; */
+        /* border-radius: 10px; */
+    }
+      
+    nav ul {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+      
+    nav ul li {
+        margin: 0px 0px;
+    }
+      
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+      
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+}
+
 @media screen and (max-width: 768px) {
     *{
         margin: 0;
@@ -58,17 +229,29 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
+        height: 100px;
+        overflow-y: scroll;
+    }
+    
+    #myUL {
+        -webkit-overflow-scrolling: touch;
+        &::-webkit-scrollbar {
+            display: none;
+        }
     }
     
     #myUL li a {
-        border: 1px solid rgb(30, 30, 30);
-        margin-top: 5px;
+        border: 1px solid rgb(229, 225, 225);
+        margin-top: 8px;
+        width: 80%;
+        border-radius: 10px;
         background-color: #09213B;
         padding: 12px;
         text-decoration: none;
         font-size: 18px;
         color: #d4cfcf;
         display: block;
+        margin-left: 7%;
     }
     
     #myUL li a:hover:not(.header) {
@@ -111,6 +294,7 @@
         display: block;
         width: 100%;
         border-radius: 10px;
+        margin: 0%;
     }
 
     .img-cont-1 img{
